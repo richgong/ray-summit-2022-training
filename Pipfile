@@ -1,0 +1,35 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ray = {extras = ["all"], version = "*"}
+torch = "*"
+torchvision = "*"
+scikit-learn = "*"
+tune-sklearn = "*"
+jupyter = "*"
+jupyterlab = "*"
+tqdm = "*"
+xgboost = "*"
+xgboost-ray = "==0.1.10"
+tensorboard = "*"
+transformers = "*"
+mlflow = "*"
+gym = "==0.21"
+pyglet = "*"
+tabulate = "*"
+opencv-python-headless = "*"
+pyopengl = "*"
+lz4 = "*"
+tensorboardx = "*"
+tensorflow-probability = "*"
+accelerate = ">=0.8.0"
+pydot = "*"
+scipy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
