@@ -28,6 +28,7 @@ tensorflow-probability = "*"
 accelerate = ">=0.8.0"
 pydot = "*"
 scipy = "*"
+numpy = "*"
 
 [dev-packages]
 
